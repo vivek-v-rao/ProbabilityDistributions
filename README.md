@@ -1,6 +1,8 @@
 # ProbabilityDistributions
 Compare some continuous probability distributions defined on (-inf, inf)
 
+![Alt text](/densities.png)
+
 ```
 Right-tail probabilities P(X >= mu + k*sigma):
 k (sigmas)              1        2        3        4        5        6        7        8        9        10
