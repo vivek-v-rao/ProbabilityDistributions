@@ -59,7 +59,7 @@ def main(plot: bool = PLOT):
     # ---- (A) Plot standardized PDFs (optional) ----
     if plot:
         plt = _lazy_import_matplotlib()
-        z = np.linspace(-10, 10, 4001)
+        z = np.linspace(-5, 5, 4001)
         pdf_cols = {}
         for dist, params, name in dists:
             pdf_fn, mu_native, sigma_native = std_pdf(dist, *params)
